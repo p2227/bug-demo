@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "taro/react",
+    "react-app",
+    "plugin:react-hooks/recommended",
+    "plugin:prettier/recommended",
+    "plugin:import/recommended"
+  ],
+  "rules": {
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
+    "import/no-anonymous-default-export": "off",
+    "no-duplicate-imports": ["error", { "includeExports": true }],
+    "no-import-assign": "error",
+    "import/no-unresolved": "off",
+    "quotes": ["error", "single"],
+    "spaced-comment": ["error", "always"]
+  }
+}
